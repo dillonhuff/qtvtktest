@@ -2,6 +2,7 @@
 #define HELLO_WINDOW_H
 
 #include <QtWidgets>
+#include <QVTKWidget.h>
 
 class Window : public QWidget {
   Q_OBJECT;
@@ -16,6 +17,11 @@ private:
   QPushButton* addViceButton;
   QPushButton* addBasePlateButton;
   QPushButton* loadModelButton;
+
+  QVTKWidget* vtk_window;
+
+  void setup_window();
+  
 };
 
 #endif

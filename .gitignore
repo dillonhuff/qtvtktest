@@ -4,3 +4,7 @@ CMakeCache.txt
 moc_window.cpp
 MyProject
 Makefile
+MyProject_automoc.cpp
+cmake_install.cmake
+libmainwindow.a
+mainwindow.cpp
